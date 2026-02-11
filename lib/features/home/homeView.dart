@@ -28,7 +28,6 @@ class Homeview extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // زرار الذهب مع انيميشن بسيط
               TweenAnimationBuilder(
                 duration: const Duration(milliseconds: 600),
                 tween: Tween<double>(begin: 0, end: 1),
@@ -49,9 +48,8 @@ class Homeview extends StatelessWidget {
                   buttonColor: Appcolors.gold,
                 ),
               ),
-              const SizedBox(height: 25), // بديل لـ spacing لو النسخة قديمة
 
-              // زرار الفضة
+
               TweenAnimationBuilder(
                 duration: const Duration(milliseconds: 800),
                 tween: Tween<double>(begin: 0, end: 1),
